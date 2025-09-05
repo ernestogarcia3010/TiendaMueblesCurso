@@ -38,9 +38,37 @@ h3 {
 
 
 /*Media Query*/
+/* Escritorio */
+@media (min-width: 993px) {
+  h1 {
+    font-size: 5rem;
+  }
+  .descripcion {
+    font-size: 1.8rem;
+  }
+  .hero {
+    height: 25rem;
+  }
+}
+/* Móviles pequeños */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .descripcion {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
+  .hero {
+    height: 15rem;
+  }
+}
 
 /** Reescribir colores */
-
+:root {
+  --bs-blue: #037BC0;   /* azul personalizado */
+  --bs-green: #8cbc00;  /* verde personalizado */
+}
 /** Productos */
 .producto-img {
       width: 50%;
@@ -49,8 +77,13 @@ h3 {
     }
 
     .descripcion {
-      background-color: #037BC0; 
+      background-color: var(--bs-blue); 
       color: white;              
       padding: 20px;             
       border-radius: 10px;      
+    }
+
+    .btn-success {
+      background-color: var(--bs-green);
+      border-color: var(--bs-green);
     }

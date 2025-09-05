@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce - Inicio</title>
@@ -13,14 +14,22 @@
             
 </head>
 <body>
-        <header class="text-center">
-             <h1 class="">
-                Tienda <span class="resaltado">Muebles</span>
-             </h1>
-        </header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+    <header class="bg-light py-3">
+        <div class="container text-center">
+            <h1>Tienda <span style="color:#037BC0">Muebles</span></h1>
+        </div>
+    </header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
                  <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Inicio</a>
@@ -52,10 +61,10 @@
 
             
             <div class="row mb-3">
-                <div class="col-7 text-center">
+                <div class="col-12 col-md-7 text-center">
                     <img src="./images/producto1.jpg" class="producto-img">
                 </div>
-                <div class="col-5 descripcion">
+                <div class="col-12 col-md-5 descripcion">
                     
                     <h3>Producto 1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
@@ -92,7 +101,7 @@
             
             <div class="row mb-3">
             <!-- Producto 4 -->
-            <div class="col-4 text-center mb-3">
+            <div class="col-12 col-md-4 text-center mb-3">
                 <img src="./images/producto4.jpg" class="producto-img mb-2" alt="Producto 4">
                 <div class="descripcion">
                     <h3>Producto 4</h3>
@@ -103,7 +112,7 @@
             </div>
 
             <!-- Producto 5 -->
-            <div class="col-4 text-center mb-3">
+            <div class="col-12 col-md-4 text-center mb-3">
                 <img src="./images/producto5.jpg" class="producto-img mb-2" alt="Producto 5">
                 <div class="descripcion">
                     <h3>Producto 5</h3>
@@ -114,7 +123,7 @@
             </div>
 
             <!-- Producto 6 -->
-            <div class="col-4 text-center mb-3">
+            <div class="col-12 col-md-4 text-center mb-3">
                 <img src="./images/producto6.jpg" class="producto-img mb-2" alt="Producto 6">
                 <div class="descripcion">
                     <h3>Producto 6</h3>
@@ -132,21 +141,21 @@
 
             <!-- Quinto renglón -->
             <div class="row mb-3">
-                <div class="col-4 text-center mb-3">
+                <div class="col-12 col-md-4 text-center mb-3">
                     <img src="./images/categoria1.jpg" class="producto-img mb-2" alt="Oficina">
                     <h2>Oficina</h2>
                     <a href="#" class="btn btn-primary">Ver Categoría</a>
                 </div>
 
                 <!-- Categoría Hogar -->
-                <div class="col-4 text-center mb-3">
+                <div class="col-12 col-md-4 text-center mb-3">
                     <img src="./images/categoria2.jpg" class="producto-img mb-2" alt="Hogar">
                     <h2>Hogar</h2>
                     <a href="#" class="btn btn-primary">Ver Categoría</a>
                 </div>
 
                 <!-- Categoría Cocina -->
-                <div class="col-4 text-center mb-3">
+                <div class="col-12 col-md-4 text-center mb-3">
                     <img src="./images/categoria3.jpg" class="producto-img mb-2" alt="Cocina">
                     <h2>Cocina</h2>
                     <a href="#" class="btn btn-primary">Ver Categoría</a>
@@ -160,7 +169,7 @@
                 <div class="row text-center">
 
                 <!-- Primera columna: Categorías -->
-                <div class="col-4 mb-1">
+                <div class="col-12 col-md-4 mb-1">
                 <h3>Categorías</h3>
                     <nav class="nav flex-column">
                     <a class="nav-link text-dark" href="#" style="text-decoration: none;">Cocina</a>
@@ -172,7 +181,7 @@
                 </div>
 
                 <!-- Segunda columna: Sobre nosotros -->
-                <div class="col-4 mb-1">
+                <div class="col-12 col-md-4 mb-1">
                 <h3>Sobre nosotros</h3>
                     <nav class="nav flex-column">
                     <a class="nav-link text-dark" href="#" style="text-decoration: none;">Nuestra historia</a>
@@ -184,7 +193,7 @@
                 </div>
 
                 <!-- Tercera columna: Soporte -->
-                <div class="col-4 mb-1">
+                <div class="col-12 col-md-4 mb-1">
                 <h3>Soporte</h3>
                     <nav class="nav flex-column">
                     <a class="nav-link text-dark" href="#" style="text-decoration: none;">Preguntas frecuentes</a>

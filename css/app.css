@@ -64,26 +64,44 @@ h3 {
   }
 }
 
-/** Reescribir colores */
+/* Reescribir colores */
 :root {
   --bs-blue: #037BC0;   /* azul personalizado */
   --bs-green: #8cbc00;  /* verde personalizado */
 }
-/** Productos */
+
+/* Productos */
 .producto-img {
-      width: 50%;
-      height: auto;
-      border-radius: 10px;
-    }
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
 
-    .descripcion {
-      background-color: var(--bs-blue); 
-      color: white;              
-      padding: 20px;             
-      border-radius: 10px;      
-    }
+.descripcion {
+  background-color: var(--bs-blue); 
+  color: white;              
+  padding: 20px;             
+  border-radius: 10px;      
+}
 
-    .btn-success {
-      background-color: var(--bs-green);
-      border-color: var(--bs-green);
-    }
+.btn-success {
+  background-color: var(--bs-green);
+  border-color: var(--bs-green);
+}
+
+/*Categorias*/
+
+.categoria {
+  overflow: hidden;          
+  border-radius: 10px;        
+}
+
+.categoria img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.categoria img:hover {
+  transform: scale(1.2);
+}

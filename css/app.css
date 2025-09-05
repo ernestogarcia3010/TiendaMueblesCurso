@@ -1,0 +1,40 @@
+/*reglas generales*/
+.resaltado {
+    color: #037BC0;
+  }
+
+.hero {
+  background: url('../images/principal.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  min-height: 30rem;
+  background-position: 100% 90%;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+    }
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/*Media Query*/
+
+/** Reescribir colores */
+
+/** Productos */
+.producto-img {
+      width: 50%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .descripcion {
+      background-color: #037BC0; 
+      color: white;              
+      padding: 20px;             
+      border-radius: 10px;      
+    }
